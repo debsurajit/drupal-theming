@@ -1,0 +1,130 @@
+@import 'varriables';
+@import 'mixins';
+
+
+body{
+    font-size: $font-size-16;
+}
+.header_wrapper {
+    background: url(../images/banner.jpg) center center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    .navbar {
+        margin: 0 auto;
+        background: none;
+        border-radius: 0;
+        border: none;
+        .navbar-brand {
+            display: none;
+        }
+    }
+    .main-menu {
+        .menu {
+            float: right;
+            margin-top: 30px;
+            li {
+                a {
+                    color: $white;
+                    font-size: $font-size-18;
+                    font-family: $font-family-light;
+                    &:before {
+                        content: '';
+                        width: 100%;
+                        height: 1px;
+                        background: $base-color;
+                        position: absolute;
+                        top: -5px;
+                        left: 0;
+                        opacity: 0;
+                        @include transition(0.5s);
+                    }
+                    &:after {
+                        content: '';
+                        width: 100%;
+                        height: 1px;
+                        background: $base-color;
+                        position: absolute;
+                        bottom: -5px;
+                        left: 0;
+                        opacity: 0;
+                        @include transition(0.5s);
+                    }
+                    &:hover {
+                        background: none;
+                        color: aqua;
+                        &:before {
+                            top: 10px;
+                            opacity: 1;
+                        }
+                        &:after {
+                            bottom: 10px;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            li.active {
+                a {
+                    background: none;
+                    &:hover {
+                        background: none;
+                        color: $base-color;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    .banner-text{
+        color: $white;
+        font-size: $font-size-18;
+        font-family: $font-family-light;
+        text-align: center;
+        padding: 5% 0 10% 0;
+        h3{
+            font-size: $font-size-30+10;
+            color: $base-color;
+        }
+        
+        .banner-button{
+            padding: 10px 25px;
+            border: 1px solid $base-color;
+            background: none;
+            margin-top: 30px;  
+            display: inline-block;
+            color:$base-color;
+            position: relative;
+               
+            
+            &:hover{
+                text-decoration: none;
+                color: $white;
+                &:before{
+                    transform: scale(1);
+               -webkit-transform: scale(1);
+                }
+            }
+            &:before{
+                position: absolute;
+    width: 100%;
+    content: '';
+    background: $base-color;
+    height: 100%;
+                
+                top:0;
+                left: 0;
+                transform: scale(0);
+               -webkit-transform: scale(0);
+                @include transition(0.5s);
+                
+                
+                
+            }
+        }
+    }
+    
+    
+    
+}

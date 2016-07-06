@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'RobotoLight';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'RobotoMedium';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Roboto Medium"), local("Roboto-Medium"), url(https://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'RobotoBold';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* line 5, ../sass/_header.scss */
+body {
+  font-size: 16px;
+}
+
+/* line 8, ../sass/_header.scss */
+.header_wrapper {
+  background: url(../images/banner.jpg) center center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+/* line 13, ../sass/_header.scss */
+.header_wrapper .navbar {
+  margin: 0 auto;
+  background: none;
+  border-radius: 0;
+  border: none;
+}
+/* line 18, ../sass/_header.scss */
+.header_wrapper .navbar .navbar-brand {
+  display: none;
+}
+/* line 23, ../sass/_header.scss */
+.header_wrapper .main-menu .menu {
+  float: right;
+  margin-top: 30px;
+}
+/* line 27, ../sass/_header.scss */
+.header_wrapper .main-menu .menu li a {
+  color: #fff;
+  font-size: 18px;
+  font-family: "RobotoLight";
+}
+/* line 31, ../sass/_header.scss */
+.header_wrapper .main-menu .menu li a:before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: aqua;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+}
+/* line 42, ../sass/_header.scss */
+.header_wrapper .main-menu .menu li a:after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: aqua;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+}
+/* line 53, ../sass/_header.scss */
+.header_wrapper .main-menu .menu li a:hover {
+  background: none;
+  color: aqua;
+}
+/* line 56, ../sass/_header.scss */
+.header_wrapper .main-menu .menu li a:hover:before {
+  top: 10px;
+  opacity: 1;
+}
+/* line 60, ../sass/_header.scss */
+.header_wrapper .main-menu .menu li a:hover:after {
+  bottom: 10px;
+  opacity: 1;
+}
+/* line 68, ../sass/_header.scss */
+.header_wrapper .main-menu .menu li.active a {
+  background: none;
+}
+/* line 70, ../sass/_header.scss */
+.header_wrapper .main-menu .menu li.active a:hover {
+  background: none;
+  color: aqua;
+}
+/* line 80, ../sass/_header.scss */
+.header_wrapper .banner-text {
+  color: #fff;
+  font-size: 18px;
+  font-family: "RobotoLight";
+  text-align: center;
+  padding: 5% 0 10% 0;
+}
+/* line 86, ../sass/_header.scss */
+.header_wrapper .banner-text h3 {
+  font-size: 40px;
+  color: aqua;
+}
+/* line 91, ../sass/_header.scss */
+.header_wrapper .banner-text .banner-button {
+  padding: 10px 25px;
+  border: 1px solid aqua;
+  background: none;
+  margin-top: 30px;
+  display: inline-block;
+  color: aqua;
+  position: relative;
+}
+/* line 101, ../sass/_header.scss */
+.header_wrapper .banner-text .banner-button:hover {
+  text-decoration: none;
+  color: #fff;
+}
+/* line 104, ../sass/_header.scss */
+.header_wrapper .banner-text .banner-button:hover:before {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+}
+/* line 109, ../sass/_header.scss */
+.header_wrapper .banner-text .banner-button:before {
+  position: absolute;
+  width: 100%;
+  content: '';
+  background: aqua;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+}
+
+/* line 4, ../sass/_body.scss */
+.welcome-message {
+  text-align: center;
+  padding: 5% 0;
+}
+/* line 7, ../sass/_body.scss */
+.welcome-message h2 {
+  font-size: 40px;
+  color: aqua;
+  margin-bottom: 2%;
+}

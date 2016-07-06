@@ -1,0 +1,12 @@
+@import 'varriables';
+@import 'mixins';
+
+.welcome-message{
+    text-align: center;
+    padding: 5% 0;
+    h2{
+        font-size: $font-size-30+10;
+        color: $base-color;
+        margin-bottom: 2%;
+    }
+}
