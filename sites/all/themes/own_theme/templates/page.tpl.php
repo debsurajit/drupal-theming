@@ -128,6 +128,29 @@
     </div>
 </div>
 
+<div>
+    <div class="container">
+         <div class="row">
+            <div class="col-sm-12 about-us-tab animatedParent">
+                <?php print render($page['equal']); ?>
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+<div class="gellary-section">
+    <?php print render($page['gellary']); ?>
+</div>
+
+<div class="home-services">
+    <div class="container">
+        <div class="row">
+            <?php print render($page['home_services']); ?>
+        </div>
+    </div>
+</div>
+
 <div class="main-container <?php print $container_class; ?>">
 
   <header role="banner" id="page-header">
@@ -138,9 +161,7 @@
     <?php print render($page['header']); ?>
   </header> <!-- /#page-header -->
     
-    <div class="row">
-        <?php print render($page['equal']); ?>
-    </div>
+   
 
   <div class="row">
 
@@ -689,14 +710,14 @@ $(document.body).on('appear', '.animatedParent', function(e, $affected){
     ele.addClass('go');
   }
   
-});
+});/*
 
  $(document.body).on('disappear', '.animatedParent', function(e, $affected) {
   if(!$(this).hasClass('animateOnce')){
     $(this).find('.animated').removeClass('go');
    }
  });
-
+*/
  $(window).load(function(){
   $.force_appear();
  });

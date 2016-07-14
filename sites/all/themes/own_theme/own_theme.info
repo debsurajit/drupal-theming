@@ -20,6 +20,9 @@ regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
 regions[equal]          = 'equal div'
+regions[gellary]        = 'gellary'
+regions[home_services]  = 'Home Services'
+
 
 
 ;;;;;;;;;;;;;;;;;;;;;

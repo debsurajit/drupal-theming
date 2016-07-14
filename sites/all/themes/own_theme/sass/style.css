@@ -26,35 +26,40 @@
   src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
   unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
 
-/* line 3, D:/xampp/htdocs/demo-drupal/sites/all/themes/own_theme/sass/_header.scss */
+/* line 5, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
+body {
+  font-size: 16px;
+  font-family: "RobotoLight"; }
+
+/* line 10, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
 .header_wrapper {
   background: url(../images/banner.jpg) center center;
   width: 100%;
   height: auto;
   background-size: cover; }
-  /* line 8, D:/xampp/htdocs/demo-drupal/sites/all/themes/own_theme/sass/_header.scss */
+  /* line 15, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
   .header_wrapper .navbar {
     margin: 0 auto;
     background: none;
     border-radius: 0;
     border: none; }
-    /* line 13, D:/xampp/htdocs/demo-drupal/sites/all/themes/own_theme/sass/_header.scss */
+    /* line 20, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
     .header_wrapper .navbar .navbar-brand {
       display: none; }
-  /* line 18, D:/xampp/htdocs/demo-drupal/sites/all/themes/own_theme/sass/_header.scss */
+  /* line 25, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
   .header_wrapper .main-menu .menu {
     float: right;
     margin-top: 30px; }
-    /* line 22, D:/xampp/htdocs/demo-drupal/sites/all/themes/own_theme/sass/_header.scss */
+    /* line 29, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
     .header_wrapper .main-menu .menu li a {
       color: #fff;
       font-size: 18px;
       font-family: "RobotoLight"; }
-      /* line 26, D:/xampp/htdocs/demo-drupal/sites/all/themes/own_theme/sass/_header.scss */
+      /* line 33, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
       .header_wrapper .main-menu .menu li a:before {
         content: '';
         width: 100%;
-        height: 2px;
+        height: 1px;
         background: aqua;
         position: absolute;
         top: -5px;
@@ -63,11 +68,11 @@
         transition: 0.5s;
         -webkit-transition: 0.5s;
         -moz-transition: 0.5s; }
-      /* line 37, D:/xampp/htdocs/demo-drupal/sites/all/themes/own_theme/sass/_header.scss */
+      /* line 44, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
       .header_wrapper .main-menu .menu li a:after {
         content: '';
         width: 100%;
-        height: 2px;
+        height: 1px;
         background: aqua;
         position: absolute;
         bottom: -5px;
@@ -76,37 +81,37 @@
         transition: 0.5s;
         -webkit-transition: 0.5s;
         -moz-transition: 0.5s; }
-      /* line 48, D:/xampp/htdocs/demo-drupal/sites/all/themes/own_theme/sass/_header.scss */
+      /* line 55, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
       .header_wrapper .main-menu .menu li a:hover {
         background: none;
         color: aqua; }
-        /* line 51, D:/xampp/htdocs/demo-drupal/sites/all/themes/own_theme/sass/_header.scss */
+        /* line 58, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
         .header_wrapper .main-menu .menu li a:hover:before {
           top: 10px;
           opacity: 1; }
-        /* line 55, D:/xampp/htdocs/demo-drupal/sites/all/themes/own_theme/sass/_header.scss */
+        /* line 62, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
         .header_wrapper .main-menu .menu li a:hover:after {
           bottom: 10px;
           opacity: 1; }
-    /* line 63, D:/xampp/htdocs/demo-drupal/sites/all/themes/own_theme/sass/_header.scss */
+    /* line 70, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
     .header_wrapper .main-menu .menu li.active a {
       background: none; }
-      /* line 65, D:/xampp/htdocs/demo-drupal/sites/all/themes/own_theme/sass/_header.scss */
+      /* line 72, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
       .header_wrapper .main-menu .menu li.active a:hover {
         background: none;
         color: aqua; }
-  /* line 75, D:/xampp/htdocs/demo-drupal/sites/all/themes/own_theme/sass/_header.scss */
+  /* line 82, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
   .header_wrapper .banner-text {
     color: #fff;
     font-size: 18px;
     font-family: "RobotoLight";
     text-align: center;
     padding: 5% 0 10% 0; }
-    /* line 81, D:/xampp/htdocs/demo-drupal/sites/all/themes/own_theme/sass/_header.scss */
+    /* line 88, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
     .header_wrapper .banner-text h3 {
       font-size: 40px;
       color: aqua; }
-    /* line 86, D:/xampp/htdocs/demo-drupal/sites/all/themes/own_theme/sass/_header.scss */
+    /* line 93, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
     .header_wrapper .banner-text .banner-button {
       padding: 10px 25px;
       border: 1px solid aqua;
@@ -115,15 +120,15 @@
       display: inline-block;
       color: aqua;
       position: relative; }
-      /* line 96, D:/xampp/htdocs/demo-drupal/sites/all/themes/own_theme/sass/_header.scss */
+      /* line 103, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
       .header_wrapper .banner-text .banner-button:hover {
         text-decoration: none;
         color: #fff; }
-        /* line 99, D:/xampp/htdocs/demo-drupal/sites/all/themes/own_theme/sass/_header.scss */
+        /* line 106, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
         .header_wrapper .banner-text .banner-button:hover:before {
           transform: scale(1);
           -webkit-transform: scale(1); }
-      /* line 104, D:/xampp/htdocs/demo-drupal/sites/all/themes/own_theme/sass/_header.scss */
+      /* line 111, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_header.scss */
       .header_wrapper .banner-text .banner-button:before {
         position: absolute;
         width: 100%;
@@ -137,5 +142,140 @@
         transition: 0.5s;
         -webkit-transition: 0.5s;
         -moz-transition: 0.5s; }
+
+@font-face {
+  font-family: 'RobotoLight';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2) format("woff2");
+  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+
+@font-face {
+  font-family: 'RobotoMedium';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Roboto Medium"), local("Roboto-Medium"), url(https://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+
+@font-face {
+  font-family: 'RobotoBold';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000; }
+
+/* line 4, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+.welcome-message {
+  text-align: center;
+  padding: 5% 0; }
+  /* line 7, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+  .welcome-message h2 {
+    font-size: 40px;
+    color: #FF0068;
+    margin-bottom: 2%;
+    font-family: "RobotoBold"; }
+
+/* line 17, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+.about-us-tab .quicktabs-wrapper {
+  display: table; }
+
+/* line 20, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+.about-us-tab ul.quicktabs-tabs {
+  width: 50%;
+  display: table-cell;
+  float: none; }
+  /* line 26, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+  .about-us-tab ul.quicktabs-tabs li a {
+    text-align: left;
+    color: #999999;
+    font-size: 24px;
+    font-family: "RobotoLight";
+    padding: 10px 0;
+    border-right: 2px solid #cccccc;
+    height: auto; }
+  /* line 36, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+  .about-us-tab ul.quicktabs-tabs li.active {
+    background: none;
+    border: none; }
+    /* line 40, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+    .about-us-tab ul.quicktabs-tabs li.active a {
+      color: #FF0068;
+      border-right: 2px solid #FF0068;
+      font-family: "RobotoBold"; }
+
+/* line 48, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+.about-us-tab .quicktabs_main {
+  width: 50%;
+  background: none;
+  text-align: center;
+  border: none;
+  display: table-cell;
+  float: none;
+  vertical-align: bottom;
+  line-height: 30px; }
+  /* line 57, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+  .about-us-tab .quicktabs_main .views-field-title {
+    color: #FF0068;
+    font-size: 24px;
+    font-family: "RobotoBold"; }
+
+/* line 65, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+.gellary-section {
+  padding: 50px 0; }
+  /* line 67, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+  .gellary-section .gellary-wrap {
+    position: relative;
+    padding: 0;
+    overflow: hidden; }
+    /* line 72, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+    .gellary-section .gellary-wrap:hover .views-field-body {
+      opacity: 1;
+      z-index: 1; }
+    /* line 79, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+    .gellary-section .gellary-wrap:hover .views-field-field-image-gallery img {
+      transform: scale(1.2); }
+    /* line 85, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+    .gellary-section .gellary-wrap .views-field-body {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.3);
+      transition: 0.5s;
+      -webkit-transition: 0.5s;
+      -moz-transition: 0.5s;
+      opacity: 0; }
+      /* line 93, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+      .gellary-section .gellary-wrap .views-field-body .field-content {
+        display: table;
+        height: 100%;
+        width: 100%; }
+        /* line 97, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+        .gellary-section .gellary-wrap .views-field-body .field-content .hover-effect {
+          display: table-cell;
+          vertical-align: middle;
+          text-align: center;
+          color: #fff; }
+          /* line 102, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+          .gellary-section .gellary-wrap .views-field-body .field-content .hover-effect a {
+            color: #fff;
+            font-size: 24px;
+            font-family: "RobotoMedium"; }
+            /* line 107, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+            .gellary-section .gellary-wrap .views-field-body .field-content .hover-effect a:hover {
+              text-decoration: none; }
+    /* line 117, D:/xampp/htdocs/drupal-theming/sites/all/themes/own_theme/sass/_body.scss */
+    .gellary-section .gellary-wrap .views-field-field-image-gallery img {
+      width: 100%;
+      transform: scale(1);
+      transition: 0.5s;
+      -webkit-transition: 0.5s;
+      -moz-transition: 0.5s; }
 
 /*# sourceMappingURL=style.css.map */

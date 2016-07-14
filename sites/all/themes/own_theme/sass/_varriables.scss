@@ -1,9 +1,15 @@
 @import 'fonts';
 
-$font-family: 'Roboto';
-$font-family-medium: 'RobotoMedium';
-$font-family-light: 'RobotoLight';
-$font-family-bold: 'RobotoBold';
+$font-family: 'source_sans_proregular';
+$font-family-medium: 'gotham_mediumregular';
+$font-family-light: 'gotham_lightregular';
+$font-family-bold: 'gotham_boldregular';
+$font-family-semibold: 'source_sans_prosemibold';
+$font-family-black: 'source_sans_problack';
+$font-family-probold: 'source_sans_probold';
+$font-family-prolight: 'source_sans_prolight';
+$font-family-lora:'loraregular';
+
 
 $font-size:14px;
 $font-size-16:16px;
@@ -17,3 +23,5 @@ $font-size-30:30px;
 $white:#fff;
 $base-color:aqua;
 $base-color2:#FF0068;
+$gray-color:#999999;
+$black-color:#000000;

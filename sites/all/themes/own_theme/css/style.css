@@ -1,66 +1,101 @@
 @font-face {
-  font-family: 'RobotoLight';
+  font-family: 'source_sans_prolight';
+  src: url("../fonts/source-sans-pro/sourcesanspro-light-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-light-webfont.woff") format("woff");
+  font-weight: normal;
   font-style: normal;
-  font-weight: 300;
-  src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'source_sans_proregular';
+  src: url("../fonts/source-sans-pro/sourcesanspro-regular-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-regular-webfont.woff") format("woff");
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-  src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 @font-face {
-  font-family: 'RobotoMedium';
+  font-family: 'source_sans_problack';
+  src: url("../fonts/source-sans-pro/sourcesanspro-black-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-black-webfont.woff") format("woff");
+  font-weight: normal;
   font-style: normal;
-  font-weight: 500;
-  src: local("Roboto Medium"), local("Roboto-Medium"), url(https://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 @font-face {
-  font-family: 'RobotoBold';
+  font-family: 'source_sans_probold';
+  src: url("../fonts/source-sans-pro/sourcesanspro-bold-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-bold-webfont.woff") format("woff");
+  font-weight: normal;
   font-style: normal;
-  font-weight: 700;
-  src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'source_sans_prosemibold';
+  src: url("../fonts/source-sans-pro/sourcesanspro-semibold-webfont.woff2") format("woff2"), url("../fonts/source-sans-pro/sourcesanspro-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*@font-face {
+    font-family: 'gotham_bookregular';
+    src: url('../fonts/gotham/gotham-book-webfont.woff2') format('woff2'),
+         url('../fonts/gotham/gotham-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+@font-face {
+  font-family: 'gotham_mediumregular';
+  src: url("../fonts/gotham/gotham-medium1-webfont.woff2") format("woff2"), url("../fonts/gotham/gotham-medium1-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gotham_boldregular';
+  src: url("../fonts/gotham/gotham-bold1-webfont.woff2") format("woff2"), url("../fonts/gotham/gotham-bold1-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gotham_lightregular';
+  src: url("../fonts/gotham/gotham-light1-webfont.woff2") format("woff2"), url("../fonts/gotham/gotham-light1-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'loraregular';
+  src: url("../fonts/lora/lora-regular-webfont.woff2") format("woff2"), url("../fonts/lora/lora-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 /* line 5, ../sass/_header.scss */
 body {
   font-size: 16px;
+  font-family: "gotham_lightregular";
 }
 
-/* line 8, ../sass/_header.scss */
+/* line 10, ../sass/_header.scss */
 .header_wrapper {
   background: url(../images/banner.jpg) center center;
   width: 100%;
   height: auto;
   background-size: cover;
 }
-/* line 13, ../sass/_header.scss */
+/* line 15, ../sass/_header.scss */
 .header_wrapper .navbar {
   margin: 0 auto;
   background: none;
   border-radius: 0;
   border: none;
 }
-/* line 18, ../sass/_header.scss */
+/* line 20, ../sass/_header.scss */
 .header_wrapper .navbar .navbar-brand {
   display: none;
 }
-/* line 23, ../sass/_header.scss */
+/* line 25, ../sass/_header.scss */
 .header_wrapper .main-menu .menu {
   float: right;
   margin-top: 30px;
 }
-/* line 27, ../sass/_header.scss */
+/* line 29, ../sass/_header.scss */
 .header_wrapper .main-menu .menu li a {
   color: #fff;
   font-size: 18px;
-  font-family: "RobotoLight";
+  font-family: "gotham_lightregular";
 }
-/* line 31, ../sass/_header.scss */
+/* line 33, ../sass/_header.scss */
 .header_wrapper .main-menu .menu li a:before {
   content: '';
   width: 100%;
@@ -74,7 +109,7 @@ body {
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
 }
-/* line 42, ../sass/_header.scss */
+/* line 44, ../sass/_header.scss */
 .header_wrapper .main-menu .menu li a:after {
   content: '';
   width: 100%;
@@ -88,44 +123,44 @@ body {
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
 }
-/* line 53, ../sass/_header.scss */
+/* line 55, ../sass/_header.scss */
 .header_wrapper .main-menu .menu li a:hover {
   background: none;
   color: aqua;
 }
-/* line 56, ../sass/_header.scss */
+/* line 58, ../sass/_header.scss */
 .header_wrapper .main-menu .menu li a:hover:before {
   top: 10px;
   opacity: 1;
 }
-/* line 60, ../sass/_header.scss */
+/* line 62, ../sass/_header.scss */
 .header_wrapper .main-menu .menu li a:hover:after {
   bottom: 10px;
   opacity: 1;
 }
-/* line 68, ../sass/_header.scss */
+/* line 70, ../sass/_header.scss */
 .header_wrapper .main-menu .menu li.active a {
   background: none;
 }
-/* line 70, ../sass/_header.scss */
+/* line 72, ../sass/_header.scss */
 .header_wrapper .main-menu .menu li.active a:hover {
   background: none;
   color: aqua;
 }
-/* line 80, ../sass/_header.scss */
+/* line 82, ../sass/_header.scss */
 .header_wrapper .banner-text {
   color: #fff;
   font-size: 18px;
-  font-family: "RobotoLight";
+  font-family: "gotham_lightregular";
   text-align: center;
   padding: 5% 0 10% 0;
 }
-/* line 86, ../sass/_header.scss */
+/* line 88, ../sass/_header.scss */
 .header_wrapper .banner-text h3 {
   font-size: 40px;
   color: aqua;
 }
-/* line 91, ../sass/_header.scss */
+/* line 93, ../sass/_header.scss */
 .header_wrapper .banner-text .banner-button {
   padding: 10px 25px;
   border: 1px solid aqua;
@@ -135,17 +170,17 @@ body {
   color: aqua;
   position: relative;
 }
-/* line 101, ../sass/_header.scss */
+/* line 103, ../sass/_header.scss */
 .header_wrapper .banner-text .banner-button:hover {
   text-decoration: none;
   color: #fff;
 }
-/* line 104, ../sass/_header.scss */
+/* line 106, ../sass/_header.scss */
 .header_wrapper .banner-text .banner-button:hover:before {
   transform: scale(1);
   -webkit-transform: scale(1);
 }
-/* line 109, ../sass/_header.scss */
+/* line 111, ../sass/_header.scss */
 .header_wrapper .banner-text .banner-button:before {
   position: absolute;
   width: 100%;
@@ -161,14 +196,147 @@ body {
   -moz-transition: 0.5s;
 }
 
-/* line 4, ../sass/_body.scss */
+/* line 3, ../sass/_body.scss */
+h2 {
+  font-size: 40px;
+  color: #FF0068;
+  margin-bottom: 2%;
+  font-family: "gotham_boldregular";
+}
+
+/* line 10, ../sass/_body.scss */
 .welcome-message {
   text-align: center;
   padding: 5% 0;
 }
-/* line 7, ../sass/_body.scss */
-.welcome-message h2 {
-  font-size: 40px;
-  color: aqua;
-  margin-bottom: 2%;
+
+/* line 16, ../sass/_body.scss */
+.about-us-tab .quicktabs-wrapper {
+  display: table;
+}
+/* line 19, ../sass/_body.scss */
+.about-us-tab ul.quicktabs-tabs {
+  width: 50%;
+  display: table-cell;
+  float: none;
+}
+/* line 24, ../sass/_body.scss */
+.about-us-tab ul.quicktabs-tabs li a {
+  text-align: left;
+  color: #999999;
+  font-size: 24px;
+  font-family: "gotham_lightregular";
+  padding: 10px 0;
+  border-right: 2px solid #cccccc;
+  height: auto;
+}
+/* line 34, ../sass/_body.scss */
+.about-us-tab ul.quicktabs-tabs li.active {
+  background: none;
+  border: none;
+}
+/* line 37, ../sass/_body.scss */
+.about-us-tab ul.quicktabs-tabs li.active a {
+  color: #FF0068;
+  border-right: 2px solid #FF0068;
+  font-family: "gotham_boldregular";
+}
+/* line 44, ../sass/_body.scss */
+.about-us-tab .quicktabs_main {
+  width: 50%;
+  background: none;
+  text-align: center;
+  border: none;
+  display: table-cell;
+  float: none;
+  vertical-align: bottom;
+  line-height: 30px;
+}
+/* line 53, ../sass/_body.scss */
+.about-us-tab .quicktabs_main .views-field-title {
+  color: #FF0068;
+  font-size: 24px;
+  font-family: "gotham_boldregular";
+}
+
+/* line 61, ../sass/_body.scss */
+.gellary-section {
+  padding: 50px 0;
+}
+/* line 63, ../sass/_body.scss */
+.gellary-section .gellary-wrap {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+/* line 69, ../sass/_body.scss */
+.gellary-section .gellary-wrap:hover .views-field-body {
+  opacity: 1;
+  z-index: 1;
+}
+/* line 74, ../sass/_body.scss */
+.gellary-section .gellary-wrap:hover .views-field-field-image-gallery img {
+  transform: scale(1.2);
+}
+/* line 79, ../sass/_body.scss */
+.gellary-section .gellary-wrap:hover .modal-body img {
+  transform: scale(1);
+}
+/* line 83, ../sass/_body.scss */
+.gellary-section .gellary-wrap:hover .hover-effect {
+  opacity: 1;
+}
+/* line 88, ../sass/_body.scss */
+.gellary-section .gellary-wrap .views-field-field-image-gallery img {
+  width: 100%;
+  transform: scale(1);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+}
+/* line 96, ../sass/_body.scss */
+.gellary-section .gellary-wrap .hover-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+}
+/* line 108, ../sass/_body.scss */
+.gellary-section .gellary-wrap .hover-effect h3 {
+  font-family: "source_sans_prosemibold";
+  margin-top: 34%;
+}
+
+/* line 116, ../sass/_body.scss */
+.home-services {
+  padding: 30px 0;
+  text-align: center;
+}
+/* line 119, ../sass/_body.scss */
+.home-services .views-field {
+  margin-bottom: 20px;
+}
+/* line 121, ../sass/_body.scss */
+.home-services .views-field a {
+  font-size: 22px;
+  color: #000000;
+  font-family: "gotham_mediumregular";
+}
+/* line 125, ../sass/_body.scss */
+.home-services .views-field a:hover {
+  text-decoration: none;
+}
+/* line 129, ../sass/_body.scss */
+.home-services .views-field p {
+  padding: 10px 0;
 }

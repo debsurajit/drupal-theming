@@ -1,12 +1,133 @@
 @import 'varriables';
 @import 'mixins';
+h2 {
+    font-size: $font-size-30+10;
+    color: $base-color2;
+    margin-bottom: 2%;
+    font-family: $font-family-bold;
+}
 
-.welcome-message{
+.welcome-message {
     text-align: center;
     padding: 5% 0;
-    h2{
-        font-size: $font-size-30+10;
-        color: $base-color;
-        margin-bottom: 2%;
+}
+
+.about-us-tab {
+    .quicktabs-wrapper {
+        display: table;
+    }
+    ul.quicktabs-tabs {
+        width: 50%;
+        display: table-cell;
+        float: none;
+        li {
+            a {
+                text-align: left;
+                color: $gray-color;
+                font-size: $font-size-24;
+                font-family: $font-family-light;
+                padding: 10px 0;
+                border-right: 2px solid lighten($gray-color, 20%);
+                height: auto;
+            }
+        }
+        li.active {
+            background: none;
+            border: none;
+            a {
+                color: $base-color2;
+                border-right: 2px solid $base-color2;
+                font-family: $font-family-bold;
+            }
+        }
+    }
+    .quicktabs_main {
+        width: 50%;
+        background: none;
+        text-align: center;
+        border: none;
+        display: table-cell;
+        float: none;
+        vertical-align: bottom;
+        line-height: 30px;
+        .views-field-title {
+            color: $base-color2;
+            font-size: $font-size-24;
+            font-family: $font-family-bold;
+        }
+    }
+}
+
+.gellary-section {
+    padding: 50px 0;
+    .gellary-wrap {
+        position: relative;
+        padding: 0;
+        overflow: hidden;
+        cursor: pointer;
+        &:hover {
+            .views-field-body {
+                opacity: 1;
+                z-index: 1;
+            }
+            .views-field-field-image-gallery {
+                img {
+                    transform: scale(1.2);
+                }
+            }
+            .modal-body {
+                img {
+                    transform: scale(1);
+                }
+            }
+            .hover-effect {
+                opacity: 1;
+            }
+        }
+        .views-field-field-image-gallery {
+            img {
+                width: 100%;
+                transform: scale(1);
+                @include transition(0.5s);
+            }
+            
+        }
+        
+        .hover-effect {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            padding: 15px;
+            text-align: center;
+            color: $white;
+            background: rgba(0, 0, 0, 0.3);
+            opacity: 0;
+            @include transition(0.5s);
+            h3{
+                font-family: $font-family-semibold;
+                margin-top: 34%;
+            }
+        }
+    }
+}
+
+.home-services {
+    padding: 30px 0;
+    text-align: center;
+    .views-field {
+        margin-bottom: 20px;
+        a {
+            font-size: $font-size-20+2;
+            color: $black-color;
+            font-family: $font-family-medium;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        p {
+            padding: 10px 0;
+        }
     }
 }
