@@ -22,6 +22,12 @@ regions[page_bottom]    = 'Page bottom'
 regions[equal]          = 'equal div'
 regions[gellary]        = 'gellary'
 regions[home_services]  = 'Home Services'
+regions[evetns]         = 'Home Events'
+regions[testimonial]    = 'Testimonial'
+regions[advantage]      = 'Advantage'
+regions[team]           = 'Team'
+regions[client_say]     = 'Client Say'
+regions[home_contact]   = 'Home Contact'
 
 
 

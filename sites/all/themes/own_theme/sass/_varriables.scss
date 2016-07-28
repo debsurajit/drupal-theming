@@ -1,5 +1,10 @@
 @import 'fonts';
 
+$lg:1200px;
+$md:992px;
+$sm:768px;
+$xs:565px;
+
 $font-family: 'source_sans_proregular';
 $font-family-medium: 'gotham_mediumregular';
 $font-family-light: 'gotham_lightregular';
@@ -16,6 +21,8 @@ $font-size-16:16px;
 $font-size-18:18px;
 $font-size-20:20px;
 $font-size-24:24px;
+$font-size-26:26px;
+$font-size-28:28px;
 $font-size-30:30px;
 
 
@@ -25,3 +32,4 @@ $base-color:aqua;
 $base-color2:#FF0068;
 $gray-color:#999999;
 $black-color:#000000;
+$border-color:#cccccc;
