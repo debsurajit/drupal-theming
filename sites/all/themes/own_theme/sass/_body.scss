@@ -318,12 +318,13 @@ h3 {
             margin-bottom: 30px;
             float: left;
             
-            img{
-                width: 100%;
-            }
+            
             
             @media screen and (max-width:$xs){
                 width:100%;
+                img{
+                width: 100%;
+            }
             }
         }
     }

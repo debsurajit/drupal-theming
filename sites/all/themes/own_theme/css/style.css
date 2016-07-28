@@ -578,32 +578,32 @@ h3 {
   margin-bottom: 30px;
   float: left;
 }
-/* line 321, ../sass/_body.scss */
-.events table td.events-cotent img {
-  width: 100%;
-}
 @media screen and (max-width: 565px) {
   /* line 316, ../sass/_body.scss */
   .events table td.events-cotent {
     width: 100%;
   }
+  /* line 325, ../sass/_body.scss */
+  .events table td.events-cotent img {
+    width: 100%;
+  }
 }
 
-/* line 332, ../sass/_body.scss */
+/* line 333, ../sass/_body.scss */
 .testimonial {
   padding: 50px 0;
 }
-/* line 334, ../sass/_body.scss */
+/* line 335, ../sass/_body.scss */
 .testimonial h3 {
   font-size: 24px;
 }
-/* line 337, ../sass/_body.scss */
+/* line 338, ../sass/_body.scss */
 .testimonial img {
   margin: 0 auto;
   border-radius: 50%;
   border: 5px solid #FF0068;
 }
-/* line 342, ../sass/_body.scss */
+/* line 343, ../sass/_body.scss */
 .testimonial .carousel-caption {
   color: #000000;
   text-shadow: none;
@@ -611,25 +611,25 @@ h3 {
   left: 0;
   right: 0;
 }
-/* line 349, ../sass/_body.scss */
+/* line 350, ../sass/_body.scss */
 .testimonial .left {
   background: none;
 }
-/* line 351, ../sass/_body.scss */
+/* line 352, ../sass/_body.scss */
 .testimonial .left span {
   font-size: 70px;
   color: #000000;
 }
-/* line 356, ../sass/_body.scss */
+/* line 357, ../sass/_body.scss */
 .testimonial .right {
   background: none;
 }
-/* line 358, ../sass/_body.scss */
+/* line 359, ../sass/_body.scss */
 .testimonial .right span {
   font-size: 70px;
   color: #000000;
 }
-/* line 363, ../sass/_body.scss */
+/* line 364, ../sass/_body.scss */
 .testimonial .carousel-control .icon-prev,
 .testimonial .carousel-control .icon-next,
 .testimonial .carousel-control .glyphicon-chevron-left,
@@ -637,26 +637,26 @@ h3 {
   top: 20%;
 }
 
-/* line 371, ../sass/_body.scss */
+/* line 372, ../sass/_body.scss */
 .advantage {
   background: #e6e6e6;
   padding: 50px 0;
 }
-/* line 376, ../sass/_body.scss */
+/* line 377, ../sass/_body.scss */
 .advantage section span:before {
   position: absolute;
   font-size: 26px;
   top: 7px;
   color: #FF0068;
 }
-/* line 384, ../sass/_body.scss */
+/* line 385, ../sass/_body.scss */
 .advantage section i:before {
   position: absolute;
   font-size: 26px;
   top: 25px;
   color: #FF0068;
 }
-/* line 391, ../sass/_body.scss */
+/* line 392, ../sass/_body.scss */
 .advantage section h2 {
   margin: 0;
   font-size: 24px;
@@ -665,32 +665,32 @@ h3 {
   text-align: left;
   padding: 0 0 15px 35px;
 }
-/* line 399, ../sass/_body.scss */
+/* line 400, ../sass/_body.scss */
 .advantage section p {
   padding-left: 35px;
 }
-/* line 404, ../sass/_body.scss */
+/* line 405, ../sass/_body.scss */
 .advantage section.advantage-heading h2 {
   color: #FF0068;
   font-size: 40px;
   text-align: center;
 }
-/* line 409, ../sass/_body.scss */
+/* line 410, ../sass/_body.scss */
 .advantage section.advantage-heading p {
   text-align: center;
   padding-bottom: 50px;
 }
 
-/* line 416, ../sass/_body.scss */
+/* line 417, ../sass/_body.scss */
 .team {
   padding: 50px 0;
 }
-/* line 418, ../sass/_body.scss */
+/* line 419, ../sass/_body.scss */
 .team .team-block {
   display: table;
   margin-bottom: 40px;
 }
-/* line 421, ../sass/_body.scss */
+/* line 422, ../sass/_body.scss */
 .team .team-block .views-field-body {
   width: 60%;
   display: table-cell;
@@ -700,7 +700,7 @@ h3 {
   vertical-align: middle;
   padding: 0 15px;
 }
-/* line 430, ../sass/_body.scss */
+/* line 431, ../sass/_body.scss */
 .team .team-block .views-field-field-team-image {
   width: 40%;
   display: table-cell;
@@ -709,7 +709,7 @@ h3 {
   border-bottom: 1px solid #cccccc;
 }
 
-/* line 440, ../sass/_body.scss */
+/* line 441, ../sass/_body.scss */
 .client-talk {
   background-image: url(../images/ban.jpg);
   background-position: 50% 50%;
@@ -718,67 +718,67 @@ h3 {
   background-size: cover;
   height: 500px;
 }
-/* line 447, ../sass/_body.scss */
+/* line 448, ../sass/_body.scss */
 .client-talk .region-client-say {
   display: table;
   text-align: center;
   color: #fff;
 }
-/* line 451, ../sass/_body.scss */
+/* line 452, ../sass/_body.scss */
 .client-talk .region-client-say section {
   display: table-cell;
   height: 500px;
   vertical-align: middle;
 }
-/* line 455, ../sass/_body.scss */
+/* line 456, ../sass/_body.scss */
 .client-talk .region-client-say section .carousel-inner {
   width: 80%;
   margin: 0 auto;
 }
-/* line 458, ../sass/_body.scss */
+/* line 459, ../sass/_body.scss */
 .client-talk .region-client-say section .carousel-inner a {
   font-size: 24px;
   color: #fff;
   font-family: "gotham_mediumregular";
   margin-top: 30px;
 }
-/* line 466, ../sass/_body.scss */
+/* line 467, ../sass/_body.scss */
 .client-talk .region-client-say .left {
   background: none;
   left: -65px;
 }
-/* line 470, ../sass/_body.scss */
+/* line 471, ../sass/_body.scss */
 .client-talk .region-client-say .right {
   background: none;
   right: -65px;
 }
 
-/* line 479, ../sass/_body.scss */
+/* line 480, ../sass/_body.scss */
 .contact-us .map img {
   width: 100%;
 }
-/* line 485, ../sass/_body.scss */
+/* line 486, ../sass/_body.scss */
 .contact-us .region-home-contact .block-webform {
   width: 50%;
   float: left;
   padding-right: 20px;
 }
-/* line 491, ../sass/_body.scss */
+/* line 492, ../sass/_body.scss */
 .contact-us .region-home-contact .address {
   width: 50%;
   float: right;
   padding-left: 20px;
 }
-/* line 495, ../sass/_body.scss */
+/* line 496, ../sass/_body.scss */
 .contact-us .region-home-contact .address h4 {
   font-weight: bold;
 }
-/* line 498, ../sass/_body.scss */
+/* line 499, ../sass/_body.scss */
 .contact-us .region-home-contact .address p {
   padding-left: 15px;
 }
 
-/* line 505, ../sass/_body.scss */
+/* line 506, ../sass/_body.scss */
 .footer {
   margin: 20px 0 0 0;
   text-align: center;
